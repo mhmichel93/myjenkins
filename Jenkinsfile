@@ -18,7 +18,7 @@ pipeline {
         sh '''if test `grep -c user /etc/passwd` -ne 0
 then 
 find / -user user > /tmp/user
-if'''
+fi'''
       }
     }
 
